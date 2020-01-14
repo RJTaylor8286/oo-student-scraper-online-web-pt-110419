@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
+html = open()
 class Scraper
 
   def self.scrape_index_page(index_url)
